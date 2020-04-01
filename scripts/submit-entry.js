@@ -26,7 +26,7 @@ ReactDOM.render(e(LikeButton), domContainer);*/
 
 document.getElementById('test').innerHTML = "hello";
 
-ReactDOM.render(
+/*ReactDOM.render(
   <h1>Hello World</h1>,
   document.getElementById('like_button_container')
-);
+);*/
