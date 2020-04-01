@@ -2,16 +2,20 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 10%;
   background-color: #33cc33;
 }
 
 a {
   display: block; /*makes whole link area clickable and specify width, padding, margin...*/
   width: 60px;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 a:hover {
-  color: white;
+  background-color: white;
+  color: #33cc33;
 }
 
 a:active {
