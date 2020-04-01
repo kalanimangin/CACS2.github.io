@@ -1,0 +1,19 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #33cc33;
+}
+
+a {
+  display: block; /*makes whole link area clickable and specify width, padding, margin...*/
+  width: 60px;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
