@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'index.css';
+import '../src/index.css';
 
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+/*const createCsvWriter = require('csv-writer').createObjectCsvWriter;*/
 
 
 
@@ -34,7 +34,6 @@ class EnterCar extends React.Component {
   handleSubmit(event) {
     alert("A ticket was submitted for: " + this.state.plate);
     event.preventDefault();
-    writeToCSV(this);
   }
 
   render() {
@@ -66,7 +65,7 @@ class EnterCar extends React.Component {
   }
 }
 
-function writeToCSV(ticket) {
+/*function writeToCSV(ticket) {
   console.log(ticket.state)
 
   const csvWriter = createCsvWriter({
@@ -92,7 +91,7 @@ function writeToCSV(ticket) {
     .then(() => {
       console.log("done");
     });
-}
+}*/
 
 ReactDOM.render(
   <EnterCar />,
