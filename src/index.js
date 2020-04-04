@@ -93,6 +93,6 @@ class EnterCar extends React.Component {
 }*/
 
 ReactDOM.render(
-  <EnterCar />,
+  <h1>Hello, World!</h1>,
   document.getElementById('root')
 );
