@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../src/index.css';
 
-/*const createCsvWriter = require('csv-writer').createObjectCsvWriter;*/
+/*const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
-document.getElementById('test').innerHTML = "test";
 
 
 class EnterCar extends React.Component {
