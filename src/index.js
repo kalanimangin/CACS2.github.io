@@ -4,6 +4,7 @@ import '../src/index.css';
 
 /*const createCsvWriter = require('csv-writer').createObjectCsvWriter;*/
 
+document.getElementById('test').innerHTML = "test";
 
 
 class EnterCar extends React.Component {
